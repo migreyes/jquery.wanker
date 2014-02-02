@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Wanker.js by Mig Reyes</title>
+    <link rel="stylesheet" type="text/css" href="wanker.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="jquery.wanker.min.js"></script>
+  </head>
+  <body>
+
+    <div class="content">
+      <h1>Welcome to Wanker.</h1>
+      <p>Resize your browser.</p>
+    </div>
+
+    <!-- Example Wanker message to be revealed on resizing. -->
+    <div class="wanker" data-wanker>
+      <div class="wanker-content">
+        <h1>The web was meant to be read, not squished.</h1>
+        <p>Prevent browser wanking and get people back to reading.</p>
+        <p>Download <a href="https://github.com/migreyes/jquery.wanker">jquery.wanker.js on GitHub</a>.</p>
+      </div>
+    </div>
+
+    <script>
+      $(function() {
+        $('[data-wanker]').wanker();
+      });
+    </script>
+
+  </body>
+</html>
