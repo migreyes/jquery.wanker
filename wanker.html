@@ -4,7 +4,7 @@
     <title>Wanker.js by Mig Reyes</title>
     <link rel="stylesheet" type="text/css" href="wanker.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="jquery.wanker.min.js"></script>
+    <script src="jquery.wanker.js"></script>
   </head>
   <body>
 
@@ -13,7 +13,7 @@
       <p>Resize your browser.</p>
     </div>
 
-    <!-- Example Wanker message to be revealed on resizing. -->
+    <!-- Message to be revealed on resizing. -->
     <div class="wanker" data-wanker>
       <div class="wanker-content">
         <h1>The web was meant to be read, not squished.</h1>
@@ -24,7 +24,7 @@
 
     <script>
       $(function() {
-        $('[data-wanker]').wanker();
+        $('[data-wanker]').wanker({delay: 200, duration: 1000});
       });
     </script>
 
