@@ -51,7 +51,3 @@
             reset()
           , settings.duration)
 ) jQuery
-
-
-
-
