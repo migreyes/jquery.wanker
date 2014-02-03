@@ -1,5 +1,5 @@
 /*!
-  * Wanker 0.1.0
+  * Wanker 0.1.1
   * http://mig.io/makes/wanker
   *
   * The web was meant to be read, not squished.
