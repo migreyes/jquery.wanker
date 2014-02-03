@@ -35,7 +35,7 @@ $(function() {
 });
 ```
 
-The message will show up after 1 second of continuous browser resizing, and will disappear 1.2 seconds later. Prefer to choose your own delay and duration? No problem!
+The message will show up after 1 second of continuous browser resizing, and will disappear 1.5 seconds later. Prefer to choose your own delay and duration? No problem!
 
 ```javascript
 $(function() {
@@ -46,3 +46,5 @@ $(function() {
 View (and contribute to!) the [list of websites using jquery.wanker.js](https://github.com/migreyes/jquery.wanker/wiki/Wanker-Design-Gallery).
 
 Made with love by [@migreyes](http://twitter.com/migreyes).
+
+*Special thanks to @sstephenson for his expert eyes.*

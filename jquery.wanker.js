@@ -1,45 +1,43 @@
-/*!
-  * Wanker 0.1.1
-  * http://mig.io/makes/wanker
-  *
-  * The web was meant to be read, not squished.
-  * Display a message on excessive browser resizing.
-  *
-  * MIT License
-  *
-  * by Mig Reyes, Designer at Basecamp
-  * http://twitter.com/migreyes
-  *
-  */
+//
+// Wanker 0.1.2
+// http://mig.io/makes/wanker
+//
+// The web was meant to be read, not squished.
+// Display a message on excessive browser resizing.
+//
+// MIT License
+//
+// by Mig Reyes, Designer at Basecamp
+// http://twitter.com/migreyes
+//
 
 (function() {
-  (function($) {
+  (function(jQuery) {
     return $.fn.wanker = function(options) {
       var settings;
       settings = $.extend({
         delay: 1000,
-        duration: 1200
+        duration: 1500
       }, options);
       return this.each(function() {
         var $message, elapsed, fired, mobile, reset, start, timer;
         $message = $(this);
         mobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
         if (!mobile) {
+          fired = false;
           start = null;
-          fired = 0;
           elapsed = null;
-          timer = void 0;
+          timer = null;
           reset = function() {
-            fired = 0;
+            fired = false;
             return elapsed = null;
           };
           return $(window).resize(function() {
-            if (fired < 1) {
-              start = new Date();
-              fired++;
-            } else {
+            if (fired) {
               elapsed = Math.abs(new Date() - start);
-              fired++;
+            } else {
+              start = new Date();
+              fired = true;
             }
             if (elapsed > settings.delay) {
               $message.fadeIn();
@@ -55,6 +53,6 @@
         }
       });
     };
-  })(jQuery);
+  })($);
 
 }).call(this);
