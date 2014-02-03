@@ -43,6 +43,6 @@ $(function() {
 });
 ```
 
-You see (and contribute to) the [list of websites using jquery.wanker.js](https://github.com/migreyes/jquery.wanker/wiki/Wanker-Design-Gallery).
+View see (and contribute to!) the [list of websites using jquery.wanker.js](https://github.com/migreyes/jquery.wanker/wiki/Wanker-Design-Gallery).
 
 Made with love by [@migreyes](http://twitter.com/migreyes).
