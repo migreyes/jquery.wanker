@@ -1,0 +1,38 @@
+{
+    "name": "wanker",
+    "title": "jQuery Wanker",
+    "description": "jQuery plugin to discourage excessive browser resizing and emphasize a focus on great content.",
+    "keywords": [
+        "content",
+        "fun",
+        "funny",
+        "resize",
+        "resizing",
+        "responsive"
+    ],
+    "version": "0.1.0",
+    "author": {
+        "name": "Mig Reyes",
+        "url": "http://mig.io/"
+    },
+    "maintainers": [
+        {
+            "name": "Mig Reyes",
+            "twitter": "http://twitter.com/migreyes",
+            "url": "http://mig.io/"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/migreyes/jquery.wanker/blob/master/LICENSE"
+        }
+    ],
+    "bugs": "https://github.com/migreyes/jquery.wanker/issues",
+    "homepage": "http://mig.io/makes/wanker",
+    "docs": "https://github.com/migreyes/jquery.wanker",
+    "download": "https://github.com/migreyes/jquery.wanker",
+    "dependencies": {
+        "jquery": ">=2.0"
+    }
+}
