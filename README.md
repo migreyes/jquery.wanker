@@ -1,7 +1,9 @@
 jquery.wanker.js
 ================
 
-Responsive design has been a blessing to web crafters everywhere. The web, however, was meant to be read, not squished. **`jquery.wanker.js`** is a tiny (*549 bytes minified*) jQuery plugin that reveals a message takeover when people start wanking (excessively resizing) their desktop web browser to see your responsive breakpoints and design.
+Responsive design has been a blessing to web crafters everywhere. The web, however, was meant to be read, not squished. **jquery.wanker.js** is a tiny (*549 bytes minified*) jQuery plugin that reveals a public service announcement when people start wanking (excessively resizing) their desktop browser as they try to see your responsive breakpoints.
+
+**jquery.wanker.js** is the perfect easter egg plugin for designers, photographers, writers, and other creative people displaying their work on the web wishing their viewers to focus more on their work, and less on the magic of media queries.
 
 ![Wanker](https://github.com/migreyes/jquery.wanker/raw/master/example/gallery/example-wanker-animated.gif)
 
