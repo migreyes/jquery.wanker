@@ -14,7 +14,7 @@ Assuming you’re already using jQuery, include the file in your `<head>`:
 </head>
 ```
 
-## Design your responsive public service announcement
+## Design your public service announcement
 
 ```html
 <div class="wanker" data-wanker>
