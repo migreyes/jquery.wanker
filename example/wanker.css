@@ -5,6 +5,7 @@
   background: #000;
   color: #FFF;
   display: none;
+  font-family: Helvetica, Arial, sans-serif;
   height: 100%;
   left: 0;
   position: fixed;
@@ -15,4 +16,16 @@
 
 .wanker-content {
   position: relative;
+  margin: 3em auto 0;
+  width: 80%;
+}
+
+.wanker-content h1 {
+  font-size: 4em;
+  line-height: .9em;
+  margin-bottom: 2em;
+}
+
+.wanker-content a {
+  color: #e9522f;
 }

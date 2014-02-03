@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jquery.wanker.js by Mig Reyes</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="wanker.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="../jquery.wanker.min.js"></script>
+  </head>
+  <body>
+
+    <div class="content">
+      <aside>
+        <p><strong>jquery.wanker.js</strong></p>
+        <p>Below is an example of prose that’ll likely be ignored by web designers and developers due to browser wanking—excessivley resizing in order to discover responsive design break-points. <em>Resize your browser to see the jQuery plugin in effect, or <a href="https://github.com/migreyes/jquery.wanker">download jquery.wanker.js by @migreyes on GitHub</a>.</em>        </p>
+      </aside>
+
+      <article>
+        <h1>Oranges</h1>
+        <h2>by John McPhee</h2>
+        <h3>Oranges. New York: Farrar, 1966, page 6-10</h3>
+
+        <p>The first know reference to oranges occurs in the second book of the Five Classics, which appeared in China around 500 B.C. and is generally regarded as having been edited by Confucius. The main course of the migration of the fruit–from its origins near the South China Sea, down into the Malay Archipelago, then on four thousand miles of ocean current to the east coast of Africa, across the desert by caravan and into the Mediterranean basin, then over the Atlantic to the American continents–closely and sometimes exactly kept pace with the major journeys of civilization. There were no oranges in the Western Hemisphere before Columbus himself introduced them. It was Pizarro who took them to Peru. The seeds the Spaniards carried came from trees that had entered Spain as a result of the rise of Islam. The development of orange botany owes something to Vasco da Gama and even more to Alexander the Great; oranges had symbolic importance in the paintings of Renaissance masters; in other times, at least two overwhelming invasions of the Italian peninsula were inspired by the visions of paradise that oranges engendered in northern minds. Oranges were once the fruit of the gods, to whom they were the golden apples of the Hesperides, which were stolen by Hercules. Then, in successive declensions, oranges became the fruit of emperors and kings. of the upper prelacy, of the aristocracy, and, by the eighteenth century, of the rich bourgeoisie. Another hundred years went by before they came within the reach of the middle classes, and not until early in this century did they at last become a fruit of the community.</p>
+        <p>Just after the Second World War, three scientists working in central Florida surprised themselves with a simple idea that resulted in the development of commercial orange-juice concentrate. A couple of dozen enormous factories sprang out of the hammocks, and Florida, which can be counted on in most seasons to produce about a quarter of all the oranges grown in the world, was soon putting most of them through the process that results in small, trim cans, about two inches in diameter and four inches high, containing orange juice that has been boiled to high viscosity in a vacuum, separated into several component parts, reassembled, flavored, and then frozen solid. People in the United States used to consume more fresh oranges than all other fresh fruits combined, but in less than twenty years the per-capita consumption has gone down seventy-five per cent, as appearances of actual oranges in most of the United States have become steadily less frequent. Fresh, whole, round, orange oranges are hardly extinct, or course, but they have seen better days since they left the garden of Hesperides.</p>
+        <p>Fresh oranges have become, in a way, old-fashioned. The frozen product made from them is pure and sweet, with a laboratory-controlled balance between its acids and its sugars; its color and its flavor components are as uniform as science can make them, and a consumer opening the six-ounce can is confident that the drink he is about to reconstitute will taste almost exactly like the juice that he took out of the last can he bought. Fresh orange juice, on the other hand, is probably less consistent in flavor than any other natural or fermented drink, with the possible exception of wine.</p>
+        <p>The taste and aroma of oranges differ by type, season, county, state, and country, and even as a result of the position of the individual orange in the framework of the tree on which it grew. Ground fruit–the orange that one can reach and pick from the ground–is not as sweet as fruit that grows high on the tree. Outside fruit is sweeter than inside fruit. Oranges grown on the south side of a tree are sweeter than oranges grown on the east or west sides, and oranges grown on the north side are the least sweet of the lot. The quantity of juice in an orange, and even the amount of Vitamin C it contains, will follow the same pattern of variation. Beyond this, there are differentiations of quality inside a single orange. Individual segments vary from one another in their content of acid and sugar. But that is cutting it pretty fine. Orange men, the ones who actually work in the groves, don’t discriminate to that extent. When they eat an orange, they snap out the long, thing blades of their fruit knives and peel down, halfway, form the blossom end. They eat the blossom half and throw the rest of the orange away.</p>
+        <p>An orange grown in Florida usually has a thin and tightly fitting skin, and it is also heavy with juice. Californians say that if you want to eat a Florida orange you have to get into a bathtub first. California oranges are light in weight and have thick skins that break easily and come off in hunks. The flesh inside is marvelously sweet, and the segments almost separate themselves. In Florida, it is said that you can run over a Californian orange with a ten-ton truck and not even wet the pavement. The differences from which these hyperboles arise will prevail in the two states even if the type of orange is the same. In arid climates, like California’s, oranges develop a thick albedo, which is the white part of the skin. Florida is one of the two or three most rained-upon states in the United States. California uses the Colorado River and similarly impressive sources to irrigate its oranges, but of course irrigation can only do so much. The annual difference in rainfall between the Florida and California orange-growing areas is one million one hundred and forty thousand gallons per acre. For years, California was the leading orange state, but Florida surpassed California in 1942, and grows three times as many oranges now. California oranges, for their part, can safely be called three times as beautiful.</p>
+      </article>
+    </div>
+
+    <!-- WANKER: Message to be revealed on resizing. -->
+    <div class="wanker" data-wanker>
+      <div class="wanker-content">
+        <h1>The web was meant to be read, not squished.</h1>
+        <p>Prevent browser wanking and get people back to reading.</p>
+        <p>Download <a href="https://github.com/migreyes/jquery.wanker">jquery.wanker.js on GitHub</a>.</p>
+      </div>
+    </div>
+
+    <!-- WANKER: Reveal the above content on browser resizing. -->
+    <script>
+      $(function() {
+        $('[data-wanker]').wanker({delay: 200, duration: 1000});
+      });
+    </script>
+
+  </body>
+</html>

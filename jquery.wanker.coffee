@@ -24,8 +24,8 @@
       mobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
 
       unless mobile
-        start = null
         fired = 0
+        start = null
         elapsed = null
         timer = undefined
 
