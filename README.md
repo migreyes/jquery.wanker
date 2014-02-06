@@ -22,7 +22,7 @@ Assuming you’re already using jQuery, include the file in your `<head>`:
 <div class="wanker" data-wanker>
   <div class="wanker-content">
     <h1>The web was meant to be read, not squished.</h1>
-    <p>Prevent browser wanking and get people back to reading.</p>
+    <p>Prevent excessive browser resizing and get people back to reading.</p>
   </div>
 </div>
 ```
