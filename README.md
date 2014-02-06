@@ -1,9 +1,9 @@
 jquery.wanker.js
 ================
 
-Responsive design has been a blessing to web crafters everywhere. The web, however, was meant to be read, not squished. **jquery.wanker.js** is a tiny (*549 bytes minified*) jQuery plugin that reveals a public service announcement when people start wanking (excessively resizing) their desktop browser as they try to see your responsive breakpoints.
+Responsive design has been a blessing to web crafters everywhere. The web, however, was meant to be read, not squished. **jquery.wanker.js** is a tiny (*549 bytes minified*) jQuery plugin that reveals a public service announcement when people start excessively resizing their desktop browser as they try to see your responsive breakpoints.
 
-**jquery.wanker.js** is the perfect easter egg plugin for designers, photographers, writers, and other creative people displaying their work on the web wishing their viewers to focus more on their work, and less on the magic of media queries.
+**jquery.wanker.js** is the perfect easter egg plugin for designers, photographers, writers, and other creative [people with a sense of humor](https://github.com/migreyes/jquery.wanker/wiki/Design-Gallery) displaying their work on the web wishing their viewers to focus more on their work, and less on the magic of media queries.
 
 ![Wanker](https://github.com/migreyes/jquery.wanker/raw/master/example/gallery/example-wanker-animated.gif)
 
@@ -39,12 +39,12 @@ The message will show up after 1 second of continuous browser resizing, and will
 
 ```javascript
 $(function() {
-  $('[data-wanker]').wanker({delay: 100, duration: 5000});
+  $('[data-wanker]').wanker({delay: 5000, duration: 5000});
 });
 ```
 
-View (and contribute to!) the [list of websites using jquery.wanker.js](https://github.com/migreyes/jquery.wanker/wiki/Wanker-Design-Gallery).
+View (and contribute to!) the [list of websites using jquery.wanker.js](https://github.com/migreyes/jquery.wanker/wiki/Design-Gallery).
 
 Made with love by [@migreyes](http://twitter.com/migreyes).
 
-*Special thanks to @sstephenson for his expert eyes.*
+*Special thanks to [@sstephenson](https://github.com/sstephenson) for his code review.*
